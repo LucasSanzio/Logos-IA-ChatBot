@@ -186,5 +186,3 @@ git push -u origin main
 Agora seu código estará no GitHub!
 
 ---
-
-Com estes passos, a estrutura base do projeto UCHub Chatbot estará configurada e pronta para as próximas fases de desenvolvimento.
