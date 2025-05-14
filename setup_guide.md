@@ -1,4 +1,4 @@
-# Guia de Configuração e Inicialização do Projeto UCHub Chatbot (Fase 1)
+# Guia de Configuração e Inicialização do Projeto UCHub Chatbot (Fase 2)
 
 Este guia detalha os passos para configurar e executar a estrutura base do projeto UCHub Chatbot.
 
