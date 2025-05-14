@@ -40,7 +40,7 @@ Abra o seu terminal e execute os seguintes comandos para verificar as versões i
 
 **2.1 ➤ Baixar e extrair os arquivos do projeto:**
 
-Faça o download do arquivo `uchub_chatbot_fase1.zip` fornecido e extraia-o em um diretório de sua preferência. Por exemplo, `~/projetos/`.
+Faça o download do arquivo `uchub_chatbot_fase2.zip` fornecido e extraia-o em um diretório de sua preferência. Por exemplo, `~/projetos/`.
 
 ```bash
 # Exemplo de como criar o diretório e extrair (ajuste o caminho do zip)
@@ -149,40 +149,3 @@ Navegue até a pasta `frontend` dentro do projeto `uchub_chatbot` e abra o arqui
 *   Exemplo de caminho: `file:///caminho/para/uchub_chatbot/frontend/index.html`
 
 Você verá uma interface de chat básica. Você pode digitar mensagens e clicar em "Enviar" para ver uma resposta automática simulada (a integração com o backend será feita em fases posteriores).
-
-### 🔹 5. Próximos Passos (Git e GitHub - Itens 1.4 e 1.8 do `todo.md`)
-
-O repositório Git local já foi inicializado no projeto.
-
-**5.1 ➤ Criar repositório no GitHub:**
-
-1.  Acesse sua conta no GitHub (`LucasSanzio`, conforme informado).
-2.  Crie um novo repositório (ex: `uchub-chatbot-entrega2`). **Não** inicialize com README, .gitignore ou licença, pois o projeto local já os possui.
-
-**5.2 ➤ Conectar repositório local ao remoto e fazer o primeiro push:**
-
-No terminal, na raiz do projeto `uchub_chatbot`:
-
-```bash
-# Adicionar o repositório remoto (substitua a URL pela URL do seu novo repositório no GitHub)
-git remote add origin https://github.com/LucasSanzio/uchub-chatbot-entrega2.git
-
-# Verificar se o remote foi adicionado corretamente
-git remote -v
-
-# Renomear a branch principal para main (prática comum, se ainda estiver como master)
-git branch -M main
-
-# Adicionar todos os arquivos ao stage (se ainda não foram adicionados)
-git add .
-
-# Fazer o commit inicial (se ainda não foi feito)
-# git commit -m "Fase 1: Estrutura base do projeto UCHub Chatbot"
-
-# Enviar os arquivos para o GitHub
-git push -u origin main
-```
-
-Agora seu código estará no GitHub!
-
----
